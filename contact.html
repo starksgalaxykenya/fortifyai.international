@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Fortify AI International</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">FORTIFY AI</div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+            ☰
+        </button>
+        <nav class="nav" id="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index.html#solutions" class="nav-link">Solutions</a></li>
+                <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="industries.html" class="nav-link">Industries</a></li>
+                <li class="nav-item"><a href="index.html#mission" class="nav-link">Mission</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section hero">
+        <div class="container">
+            <h1>Get in <strong>Touch</strong></h1>
+            <p>Ready to fortify your business with AI solutions? We're here to help you transform your digital future.</p>
+        </div>
+    </section>
+
+    <section class="section contact">
+        <div class="container">
+            <div class="contact-container">
+                <!-- Contact Information -->
+                <div class="contact-info" data-animation="fade-in">
+                    <h2 class="section-title">Contact Information</h2>
+                    <p>We'd love to hear from you. Choose your preferred method of contact below.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>contact@fortifyai.international</p>
+                                <small>Typically respond within 24 hours</small>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>+254 793 312 993</p>
+                                <small>Available for quick queries</small>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+254 793 312 993</p>
+                                <small>Business hours: 9AM - 6PM EAT</small>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Starks Galaxy Limited<br>Nairobi, Kenya</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form" data-animation="fade-in">
+                    <h2 class="section-title">Send Us a Message</h2>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company" class="form-label">Company</label>
+                            <input type="text" id="company" name="company" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="industry" class="form-label">Industry</label>
+                            <select id="industry" name="industry" class="form-input">
+                                <option value="">Select an industry</option>
+                                <option value="automotive">Automotive</option>
+                                <option value="travel">Travel & Hospitality</option>
+                                <option value="big-data">Big Data Analytics</option>
+                                <option value="music">Music & Entertainment</option>
+                                <option value="software">Software Development</option>
+                                <option value="transport">Transport & Logistics</option>
+                                <option value="agriculture">Agriculture</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Your Message *</label>
+                            <textarea id="message" name="message" class="form-textarea" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <p class="form-label">Preferred Contact Method *</p>
+                            <div class="contact-options">
+                                <label class="contact-option">
+                                    <input type="radio" name="contact-option" value="email" checked>
+                                    <span>Email</span>
+                                </label>
+                                <label class="contact-option">
+                                    <input type="radio" name="contact-option" value="whatsapp">
+                                    <span>WhatsApp</span>
+                                </label>
+                                <label class="contact-option">
+                                    <input type="radio" name="contact-option" value="call">
+                                    <span>Phone Call</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item" data-animation="fade-in">
+                    <h3>What is your typical response time?</h3>
+                    <p>We respond to all inquiries within 24 hours during business days. For urgent matters, WhatsApp or phone calls receive faster responses.</p>
+                </div>
+                <div class="faq-item" data-animation="fade-in">
+                    <h3>Do you offer free consultations?</h3>
+                    <p>Yes, we offer a complimentary 30-minute consultation to understand your needs and propose a tailored solution.</p>
+                </div>
+                <div class="faq-item" data-animation="fade-in">
+                    <h3>What industries do you specialize in?</h3>
+                    <p>While we serve multiple industries, we have extensive experience in automotive, travel, big data, entertainment, software, transport, and agriculture.</p>
+                </div>
+                <div class="faq-item" data-animation="fade-in">
+                    <h3>Can you work with international clients?</h3>
+                    <p>Absolutely! We serve clients globally and can accommodate different time zones and regional requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html" class="footer-link">Home</a>
+                <a href="products.html" class="footer-link">Products</a>
+                <a href="industries.html" class="footer-link">Industries</a>
+                <a href="contact.html" class="footer-link">Contact</a>
+            </div>
+            <p>A Proud Product of Starks Galaxy Limited</p>
+            <p>&copy; <span id="current-year"></span> Fortify AI International. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
